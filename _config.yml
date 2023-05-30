@@ -2,58 +2,30 @@ url: https://y7kim.github.io
 baseurl: /agency-jekyll-theme/
 
 # Site settings
-title: Awesome Title
-email: your-email@domain.com
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+title: Siphekela Isizwe Empowerment and Feeding Scheme
+email: Siphekela.Isizwe@gmail.com
+description: Our mission is to eradicate poverty in the community at large. We aim to provide food security to underprivileged and impoverished of communities
 
 
 # Team names, titles and social links
 people:
-- name: Kay Garland
+- name: Lungisa Haai
   pic: 1
-  position: Lead Designer
+  position: Founder and CEO
   social:
-    - title: twitter
-      url: #
+    - title: instagram
+      url: https://www.instagram.com/siphekela.isizwe/
     - title: facebook
-      url: #
-    - title: stack-overflow
-      url: #
+      url: https://www.facebook.com/profile.php?id=100067778174081
 
-- name: Larry Parker
-  pic: 2
-  position: Lead Marketer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: linkedin
-      url: #
 
-- name: Diana Petersen
-  pic: 3
-  position: Lead Developer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: google-plus
-      url: #
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: http://twitter.com/jekyllrb
+  - title: instagram
+    url: https://www.instagram.com/siphekela.isizwe/
   - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket 
-    url: http://bitbucket.org/jekyll
-  - title: github
-    url: http://github.com/jekyll
+    url: https://www.facebook.com/profile.php?id=100067778174081
 
 # Postal address (add as many lines as necessary)
 address:
