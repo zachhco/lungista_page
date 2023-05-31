@@ -1,6 +1,17 @@
 <style>
+    .clients {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .clients a {
+        margin-right: 10px; /* Adjust the spacing between images as per your preference */
+    }
+
     .clients img {
         height: 100px; /* Adjust the height as per your preference */
+        width: auto; /* Maintain aspect ratio */
     }
 </style>
 
@@ -8,26 +19,15 @@
 <aside class="clients">
     <div class="container">
         <div class="row">
-            <div class="col-md-3 col-sm-6">
-                <a href="#">
-                    <img src="img/logos/klogo_copy.jpg" class="img-responsive img-centered" alt="">
-                </a>
-            </div>
-            <div class="col-md-3 col-sm-6">
-                <a href="#">
-                    <img src="img/logos/foodfor_copy.png" class="img-responsive img-centered" alt="">
-                </a>
-            </div>
-            <div class="col-md-3 col-sm-6">
-                <a href="#">
-                    <img src="img/logos/foodlovers_copy.png" class="img-responsive img-centered" alt="">
-                </a>
-            </div>
-            <div class="col-md-3 col-sm-6">
-                <a href="#">
-                    <img src="img/logos/klogo_copy.jpg" class="img-responsive img-centered" alt="">
-                </a>
-            </div>
+            <a href="#">
+                <img src="img/logos/klogo_copy.jpg" class="img-responsive img-centered" alt="">
+            </a>
+            <a href="#">
+                <img src="img/logos/foodfor_copy.png" class="img-responsive img-centered" alt="">
+            </a>
+            <a href="#">
+                <img src="img/logos/foodlovers_copy.png" class="img-responsive img-centered" alt="">
+            </a>
         </div>
     </div>
 </aside>

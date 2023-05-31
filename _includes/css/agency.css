@@ -10,11 +10,30 @@ body {
     color: #{{ site.data.template.color.secondary-dark }};
 }
 
-.text-muted {
-    color: #{{ site.data.template.color.muted }};
-}
-
-.img-circle {
+.info-box {
+    border: 6px solid #fbae00;
+    background-color: #f9f9f9;
+    padding: 20px;
+    max-width: 400px; /* Adjust the max-width as per your preference */
+    font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #{{ site.data.template.color.secondary-dark }};
+    margin: 0 auto;
+    text-align: center; /* Center the text inside the box */
+  }
+  
+  .info-box img {
+    max-width: 60%; /* Adjust the image width as needed */
+    height: auto;
+    display: block;
+    margin: 0 auto 20px; /* Add some margin at the bottom for spacing */
+  }
+  
+  .info-title {
+    font-weight: bold;
+    margin-top: 0; /* Reset the default margin */
+  }
+  
+  .img-circle {
     border-radius: 50%;
     object-fit: cover;
     width: 100%;
@@ -28,8 +47,12 @@ body {
     color: #{{ site.data.template.color.primary }};
 }
 
+.text-muted {
+    color: #{{ site.data.template.color.muted }};
+}
+
 p {
-    font-size: 14px;
+    font-size: 17px;
     line-height: 1.75;
 }
 
