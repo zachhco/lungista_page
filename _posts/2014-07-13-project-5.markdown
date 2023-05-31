@@ -1,9 +1,0 @@
----
-title: Land Plot
-layout: default
-modal-id: 4
-img: lungi_kolisi_proj_1.jpg
-thumbnail: lungi_kolisi_proj_1.jpg
-alt: image-alt
-description: We are in the process of securing a new plot of land in ___ and have plans to create a soup kitchen, vegetable garden, and three to four classrooms for the youth.  
----
